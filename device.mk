@@ -250,6 +250,11 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# XMLs
+PRODUCT_PACKAGES += \
+    libtinyxml \
+    libxml2
+
 PRODUCT_PACKAGES += \
     AOSPLinks
 
