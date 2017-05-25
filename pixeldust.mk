@@ -24,7 +24,7 @@ $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/bliss/config/common.mk)
 
-PRODUCT_NAME := bliss_angler
+PRODUCT_NAME := pixeldust_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
