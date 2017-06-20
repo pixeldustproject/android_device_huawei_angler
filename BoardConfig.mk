@@ -40,6 +40,10 @@ BOARD_RAMDISK_OFFSET     := 0x02000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=angler androidboot.console=ttyHSL0 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 boot_cpus=0-7 no_console_suspend
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
+STRICT_ALIASING := true
+CLANG_O3 := true
+
+TARGET_GCC_VERSION_ARM64 := 6.x
 TARGET_KERNEL_CONFIG := angler_defconfig
 TARGET_KERNEL_SOURCE := kernel/huawei/angler
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
