@@ -284,7 +284,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Mobile Data provision prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.prov_mobiledata=false
+    ro.com.android.prov_mobiledata=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610
