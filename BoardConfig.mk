@@ -41,7 +41,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $
 STRICT_ALIASING := true
 CLANG_O3 := true
 
-TARGET_GCC_VERSION_ARM64 := 6.x
+TARGET_GCC_VERSION_ARM64 := 8.x
 TARGET_KERNEL_CONFIG := angler_defconfig
 TARGET_KERNEL_SOURCE := kernel/huawei/angler
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
